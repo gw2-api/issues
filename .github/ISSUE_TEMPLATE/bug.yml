@@ -24,6 +24,12 @@ body:
       3. Then error...
   validations:
     required: false
+- type: input
+  attributes:
+    label: Happening since
+    description: Rough date since when this issue occurs.
+  validations:
+    required: false
 - type: textarea
   attributes:
     label: Anything else?
