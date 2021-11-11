@@ -1,0 +1,36 @@
+name: Feature Request
+description: Propose a new feature for the Guild Wars 2 API
+labels: [feature, triage]
+body:
+- type: textarea
+  attributes:
+    label: Feature Description
+    description: A concise description of the feature you want to see implemented in the Guild Wars 2 API, and why.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Implementation
+    description: Detailed information about how you think the new feature should look like.
+    placeholder: |
+      - Think of the possible endpoint path, names of additional properties, etc
+      - Are there any permissions necessary?
+      - ...
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Example
+    description: A JSON example of the new feature.
+    render: json
+ validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Anything else?
+    description: |
+      Links? References? Anything that will give us more context about your feature request!
+
+      Tip: You can attach images or relevant files by clicking this area to highlight it and then dragging files in.
+  validations:
+    required: false
