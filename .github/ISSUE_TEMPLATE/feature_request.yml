@@ -23,7 +23,7 @@ body:
     label: Example
     description: A JSON example of the new feature.
     render: json
- validations:
+  validations:
     required: false
 - type: textarea
   attributes:
