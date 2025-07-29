@@ -1,6 +1,7 @@
 name: Bug Report
 description: File a new bug report in the Guild Wars 2 API
-labels: [bug, triage]
+type: Bug
+labels: [triage]
 body:
 - type: textarea
   attributes:
