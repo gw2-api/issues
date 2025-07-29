@@ -1,6 +1,7 @@
 name: Feature Request
 description: Propose a new feature for the Guild Wars 2 API
-labels: [feature, triage]
+type: Feature
+labels: [triage]
 body:
 - type: textarea
   attributes:
